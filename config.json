@@ -1,0 +1,2 @@
+text = text.strip()
+    text = re.sub(r"^
