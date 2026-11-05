@@ -1,0 +1,11 @@
+:: 1) Install Python 3.9+ (https://python.org) if you haven't
+python --version
+
+:: 2) Install deps
+pip install -r requirements.txt
+
+:: 3) One-time setup — writes .env, creates your Telegram channel, saves @username
+scripts\setup.bat
+
+:: 4) Run the bot
+python bot.py
